@@ -1,3 +1,31 @@
+/*HEADER*/
+html,body {
+    height:100vh;
+}
+.carousel, .item, .active {
+    height:100vh;
+}
+.carousel { 
+    top: 0;
+}
+.carousel-inner {
+    height:100vh;
+}
+.carousel-inner img {
+    margin: auto;
+}
+
+.navbar{
+    z-index:9;
+}
+
+#fullCarousel{
+    position:absolute;
+    width:100%;
+    top:0;
+}
+
+/*FOOTER*/
 /* parte superior */
 .container_footer{
     display:flex;
@@ -94,29 +122,4 @@ a {
 
 a:link {
     color:rgb(184, 207, 223);;
-}
-
-html,body {
-    height:100vh;
-}
-.carousel, .item, .active {
-    height:100vh;
-}
-.carousel { 
-    top: 0;
-}
-.carousel-inner {
-    height:100vh;
-}
-.carousel-inner img {
-    margin: auto;
-}
-
-.navbar{
-    z-index:9;
-}
-
-#fullCarousel{
-    width:100%;
-    top:0;
 }
